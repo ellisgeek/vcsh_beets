@@ -1,0 +1,8 @@
+directory: /home/ellisgeek/Music
+plugins: chroma fetchart lyrics lastgenre embedart
+embedart:
+    ifempty: yes
+paths:
+    default: $albumartist/$album/$track - $title
+    singleton: Non-Album/$artist/$title
+    comp: Compilations/$album/$track - title
